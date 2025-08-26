@@ -1,0 +1,82 @@
+# AI+HEP Journal Club Sessions
+# This file controls the journal club schedule
+# To add new sessions, simply add entries to this list
+# Format: YYYY-MM-DD for dates
+
+upcoming:
+  - date: "2025-09-15"
+    time: "3-4 PM Beijing Time"
+    topic: "Quantum-Inspired Neural Networks"
+    status: "upcoming"
+    focused_paper:
+      title: "To be announced"
+      arxiv: ""
+      url: ""
+    related_papers: []
+    description: "Exploring how quantum computing principles can inspire new neural network architectures."
+
+past:
+  - date: "2025-07-14"
+    time: "3-4 PM Beijing Time"
+    topic: "To be announced"
+    status: "past"
+    focused_paper:
+      title: "Coming soon"
+      arxiv: ""
+      url: ""
+    related_papers: []
+    description: ""
+
+  - date: "2025-06-30"
+    time: "3-4 PM Beijing Time"
+    topic: "New Architecture Design for More Human-like NN & Dynamic Sparsity"
+    status: "past"
+    focused_paper:
+      title: "New Architecture Design for More Human-like Neural Networks"
+      arxiv: "2505.05522"
+      url: "https://arxiv.org/abs/2505.05522"
+    related_papers:
+      - title: "Dynamic Sparsity in Neural Networks"
+        arxiv: "2505.03258"
+        url: "https://arxiv.org/abs/2505.03258"
+    description: "Discussion on novel neural network architectures that mimic human cognitive processes and implement dynamic sparsity mechanisms."
+
+  - date: "2025-06-16"
+    time: "3-4 PM Beijing Time"
+    topic: "Neural Network Compositionality & Mechanistic Interpretability"
+    status: "past"
+    focused_paper:
+      title: "Neural Network Compositionality"
+      arxiv: "2301.10884"
+      url: "https://arxiv.org/abs/2301.10884"
+    related_papers:
+      - title: "Understanding Neural Networks"
+        arxiv: "2406.09067"
+        url: "https://arxiv.org/abs/2406.09067"
+      - title: "Tracing Thoughts in Language Models"
+        arxiv: ""
+        url: "https://www.anthropic.com/research/tracing-thoughts-language-model"
+      - title: "Mapping the Mind of Language Models"
+        arxiv: ""
+        url: "https://www.anthropic.com/research/mapping-mind-language-model"
+      - title: "Early work on interpretability"
+        arxiv: "1608.06019"
+        url: "https://arxiv.org/abs/1608.06019"
+    description: "Deep dive into how neural networks compose information and mechanistic approaches to understanding their inner workings."
+
+  - date: "2025-06-02"
+    time: "3-4 PM Beijing Time"
+    topic: "Neural Thermodynamic Laws for Large Language Model Training"
+    status: "past"
+    focused_paper:
+      title: "Neural Thermodynamic Laws for LLM Training"
+      arxiv: "2505.10559"
+      url: "https://arxiv.org/abs/2505.10559"
+    related_papers:
+      - title: "Thermodynamics and Statistical Mechanics of Neural Networks"
+        arxiv: "1806.08734"
+        url: "https://arxiv.org/abs/1806.08734"
+      - title: "Statistical Mechanics of Learning"
+        arxiv: "2006.10739"
+        url: "https://arxiv.org/abs/2006.10739"
+    description: "Exploring how thermodynamic principles can be applied to understand and optimize large language model training processes."
