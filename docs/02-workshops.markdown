@@ -19,7 +19,7 @@ order: 3
   </div>
 
   <div class="content-section">
-    <h2 class="section-title">Upcoming Workshop</h2>
+    <h2 class="section-title">Previous Workshop</h2>
     <div class="card">
       <h3 class="card-title">🗓️ AI+HEP Workshop 2025</h3>
       <div style="margin: 1rem 0;">
@@ -28,7 +28,7 @@ order: 3
         <p><strong>🌐 Website:</strong> <a href="https://indico.ibs.re.kr/event/789/" target="_blank">IBS Indico</a></p>
       </div>
       <div style="margin-top: 1.5rem;">
-        <a href="https://indico.ibs.re.kr/event/789/" class="btn" target="_blank">Register Now</a>
+        <!-- <a href="https://indico.ibs.re.kr/event/789/" class="btn" target="_blank">Register Now</a> -->
         <a href="#format" class="btn btn-outline">Learn More</a>
       </div>
     </div>

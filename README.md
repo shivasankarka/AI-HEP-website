@@ -11,7 +11,7 @@
 ---
 
 ## Overview
-This repository contains the source for the AI+HEP East Asia community website, built with **Jekyll** (GitHub Pages compatible) and a customized **Minima** theme. It provides:
+This repository contains the source for the AI+HEP East Asia community website, built with **Jekyll** (GitHub Pages compatible) and a customized **Minima** theme.
 
 > Important: Most page content should be edited via data files (YAML) rather than directly modifying the Markdown pages unless you are restructuring layouts.
 
