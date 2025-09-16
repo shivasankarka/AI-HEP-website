@@ -194,7 +194,7 @@ order: 5
             </div>
 
 <script>
-  // Journal Club Past Sessions Filtering + Keyword Search (Progressive Enhancement)
+  // Pray this scripts works in prod.
   (function(){
     const limitSelect = document.getElementById('session-limit');
     const beforeInput = document.getElementById('session-before-date');
@@ -205,11 +205,9 @@ order: 5
     if(!container) return;
     const cards = Array.from(container.querySelectorAll('.journal-session-card'));
 
-    // Pre-parse static metadata
     cards.forEach(card => {
       const ds = card.getAttribute('data-date');
       card._date = new Date(ds + 'T00:00:00Z');
-      // Collect searchable text (topic + focused + related + arxiv tokens)
       let text = card.querySelector('.journal-session-title')?.textContent || '';
       const focused = card.querySelector('.journal-focused-paper');
       if(focused) text += ' ' + focused.textContent;
