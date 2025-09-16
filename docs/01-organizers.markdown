@@ -168,7 +168,7 @@ order: 2
     <div class="volunteer-grid">
       <div class="person-card volunteer-card">
         <div class="person-media" style="overflow:hidden; position:relative;">
-          <img src="{{ '/images/shiva.png' | relative_url }}"
+          <img src="{{ '/images/shiva.jpg' | relative_url }}"
                alt="Photo of Shivasankar K.A"
                loading="lazy"
                style="width:100%; height:100%; object-fit:cover; object-position:center; transform:scale(1.35);">
@@ -185,7 +185,7 @@ order: 2
             <li class="person-tag">Deep Learning</li>
           </ul>
           <div class="person-bio-wrapper" data-bio>
-            <p class="person-bio">Placeholder biography. Add contributions, core skills, and interests in AI+HEP community infrastructure.</p>
+            <p class="person-bio">Placeholder biography.</p>
           </div>
           <p class="person-contact"><strong>Email:</strong> <a href="mailto:a-shiva@particle.sci.hokudai.ac.jp">a-shiva@particle.sci.hokudai.ac.jp</a></p>
         </div>
