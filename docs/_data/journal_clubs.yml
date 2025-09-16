@@ -4,28 +4,92 @@
 # Format: YYYY-MM-DD for dates
 
 upcoming:
-  - date: "2025-09-15"
+  - date: "2025-09-29"
     time: "3-4 PM Beijing Time"
-    topic: "Quantum-Inspired Neural Networks"
+    topic: "To be announced"
     status: "upcoming"
     focused_paper:
       title: "To be announced"
       arxiv: ""
       url: ""
     related_papers: []
-    description: "Exploring how quantum computing principles can inspire new neural network architectures."
+    description: ""
 
 past:
-  - date: "2025-07-14"
+  - date: "2025-09-15"
     time: "3-4 PM Beijing Time"
-    topic: "To be announced"
+    topic: "Double Descent and Overparameterization in Particle Physics Data & Higgs Signal Strength Estimation with Machine Learning"
     status: "past"
     focused_paper:
-      title: "Coming soon"
-      arxiv: ""
-      url: ""
+      title: "Double Descent and Overparameterization in Particle Physics Data"
+      arxiv: "2509.01397"
+      url: "https://arxiv.org/abs/2509.01397"
+    related_papers:
+      - title: "Double Descent"
+        url: "https://chris-said.io/2023/04/21/double-descent-in-human-learning/"
+      - title: "Grokking"
+        arxiv: "2201.02177"
+        url: "https://arxiv.org/abs/2201.02177"
+      - title: "Higgs Signal Strength Estimation with Machine Learning under Systematic Uncertainties"
+        arxiv: "2509.00672"
+        url: "https://arxiv.org/abs/2509.00672"
+    description: "Discussion on double descent phenomena in particle physics data and machine learning approaches for Higgs signal strength estimation."
+
+  - date: "2025-09-01"
+    time: "3-4 PM Beijing Time"
+    topic: "Inductive Bias in Foundation Models and World Models & Optical Generative Models"
+    status: "past"
+    focused_paper:
+      title: "Inductive Bias in Foundation Models and World Models"
+      arxiv: "2507.06952"
+      url: "https://arxiv.org/abs/2507.06952"
+    related_papers:
+      - title: "Optical generative models"
+        arxiv: "2410.17970"
+        url: "https://www.nature.com/articles/s41586-025-09446-5"
+      - title: "OnmiLearn"
+        arxiv: "2404.16091"
+        url: "https://arxiv.org/abs/2404.16091"
+    description: "Continued discussion on inductive bias in foundation models and world models, plus exploration of optical generative models."
+
+  - date: "2025-08-27"
+    time: "3-4 PM Beijing Time"
+    topic: "Inductive Bias in Foundation Models and World Models"
+    status: "past"
+    focused_paper:
+      title: "Inductive Bias in Foundation Models and World Models"
+      arxiv: "2507.06952"
+      url: "https://arxiv.org/abs/2507.06952"
     related_papers: []
-    description: ""
+    description: "Discussion on inductive bias in foundation models and world models."
+
+  - date: "2025-08-11"
+    time: "3-4 PM Beijing Time"
+    topic: "Symbolic Regressions"
+    status: "past"
+    focused_paper:
+      title: "Symbolic Regressions"
+      arxiv: "2508.00989"
+      url: "https://arxiv.org/abs/2508.00989"
+    related_papers:
+      - title: "Symbolic Regression Paper"
+        arxiv: "2303.03192"
+        url: "https://arxiv.org/abs/2303.03192"
+      - title: "Symbolic Regression Paper"
+        arxiv: "2312.01816"
+        url: "https://arxiv.org/abs/2312.01816"
+    description: "Discussion on symbolic regression techniques and applications."
+
+  - date: "2025-07-14"
+    time: "3-4 PM Beijing Time"
+    topic: "Learning at Criticality"
+    status: "past"
+    focused_paper:
+      title: "Learning at Criticality"
+      arxiv: "2506.03703"
+      url: "https://arxiv.org/abs/2506.03703"
+    related_papers: []
+    description: "Discussion on learning at criticality and administrative matters."
 
   - date: "2025-06-30"
     time: "3-4 PM Beijing Time"
