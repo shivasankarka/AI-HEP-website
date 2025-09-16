@@ -162,6 +162,19 @@ a:hover {
 .highlight-box.compact { padding: 1.15rem 1.2rem 1.3rem; }
 .highlight-box.compact p { margin-top: .35rem; }
 
+/* Workshop page utilities */
+.workshop-card .meta-list {
+  list-style: none;
+  margin: 0 0 0.75rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.workshop-card .meta-list li strong { color: var(--yin-dark); font-weight: 600; }
+
 .hero-section {
   background: linear-gradient(135deg, var(--yin-dark) 0%, var(--gray-800) 100%);
   color: var(--yang-light);
