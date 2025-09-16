@@ -50,7 +50,7 @@ README.md                   # You are here
 ## Updating Journal Club Sessions
 All sessions (upcoming & past) are managed exclusively in: `docs/_data/journal_clubs.yml`.
 
-Each session entry follows a schema similar to:
+Each session entry follows a schema similar to (Refer to existing `journal_clubs.yml`):
 ```yaml
 - date: 2025-09-05
   time: 17:00 JST
