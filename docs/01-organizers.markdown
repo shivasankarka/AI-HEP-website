@@ -40,7 +40,6 @@ order: 2
 <style>
     .person-bio {
         border: none;
-        background: none;
         font-size: 0.85rem;
     }    
 </style>
