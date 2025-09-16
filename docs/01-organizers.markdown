@@ -87,10 +87,11 @@ order: 2
             <span class="person-affiliation">CTPU-PTC, Institute for Basic Science</span>
           </div>
           <ul class="person-tags">
-            <li class="person-tag">Jet Physics</li>
-            <li class="person-tag">Anomaly Detection</li>
-            <li class="person-tag">Performance</li>
-            <li class="person-tag">Deep Learning</li>
+            <li class="person-tag">Galactic Dynamics</li>
+            <li class="person-tag">Dark Matter Physics</li>
+            <li class="person-tag">Collider & Jet Physics</li>
+            <li class="person-tag">AI for Science</li>
+            <li class="person-tag">Science for AI</li>
           </ul>
           <div class="person-bio-wrapper" data-bio>
             <p class="person-bio">Placeholder biography for Sung Hak. Replace with a concise academic and research summary highlighting key contributions.</p>
