@@ -76,8 +76,8 @@ order: 2
         <div class="person-body">
           <h3 class="person-name">Sung Hak Lim</h3>
           <div class="person-role-block">
-            <span class="person-role">Researcher</span>
-            <span class="person-affiliation">(Add Institution)</span>
+            <span class="person-role">Senior Researcher</span>
+            <span class="person-affiliation">CTPU-PTC, Institute for Basic Science</span>
           </div>
           <ul class="person-tags">
             <li class="person-tag">Jet Physics</li>
@@ -85,10 +85,10 @@ order: 2
             <li class="person-tag">Performance</li>
             <li class="person-tag">Deep Learning</li>
           </ul>
-          <div class="person-bio-wrapper" data-bio>
+          <!-- <div class="person-bio-wrapper" data-bio> -->
             <p class="person-bio">Placeholder biography for Sung Hak. Replace with a concise academic and research summary highlighting key contributions.</p>
-          </div>
-          <p class="person-contact"><strong>Email:</strong> <a href="mailto:tianjiresearch@gmail.com">tianjiresearch@gmail.com</a></p>
+          <!-- </div> -->
+          <p class="person-contact"><strong>Email:</strong> <a href="mailto:sunghak.lim@ibs.re.kr">sunghak.lim@ibs.re.kr</a></p>
         </div>
       </div>
 
