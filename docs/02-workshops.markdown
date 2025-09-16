@@ -8,7 +8,7 @@ order: 3
 <section class="hero-section hero-tight">
   <div class="wrapper">
     <h1 class="hero-title">AI+HEP Workshops</h1>
-    <p class="hero-subtitle">Annual in‑person intensive events across East Asia</p>
+    <p class="hero-subtitle">Annual in‑person workshop events across East Asia</p>
   </div>
 </section>
 
