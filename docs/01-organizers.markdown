@@ -90,8 +90,7 @@ order: 2
             <li class="person-tag">Galactic Dynamics</li>
             <li class="person-tag">Dark Matter Physics</li>
             <li class="person-tag">Collider & Jet Physics</li>
-            <li class="person-tag">AI for Science</li>
-            <li class="person-tag">Science for AI</li>
+            <li class="person-tag">ML for Science</li>
           </ul>
           <div class="person-bio-wrapper" data-bio>
             <p class="person-bio">Placeholder biography for Sung Hak. Replace with a concise academic and research summary highlighting key contributions.</p>
