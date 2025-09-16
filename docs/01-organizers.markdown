@@ -94,10 +94,9 @@ order: 2
 
       <!-- Organizer: Vinicius Mikuni -->
       <div class="person-card">
-        <div class="person-media">
-          <img src="{{ '/images/mikuni.jpg' | relative_url }}" alt="Photo of Vinicius Mikuni" loading="lazy" />
-        </div>
-        <div class="person-body">
+        <div class="person-media" style="overflow:hidden;">
+          <img src="{{ '/images/mikuni.jpg' | relative_url }}" alt="Photo of Vinicius Mikuni" loading="lazy" style="width:100%; height:100%; object-fit:contain; object-position:center; background:#f5f5f5;" />
+        </div>    <div class="person-body">
           <h3 class="person-name">Vinicius Mikuni</h3>
           <div class="person-role-block">
             <span class="person-role">Associate Professor</span>
@@ -168,8 +167,11 @@ order: 2
     <p>Community volunteers contribute to operations, events, outreach, and technical infrastructure.</p>
     <div class="volunteer-grid">
       <div class="person-card volunteer-card">
-        <div class="person-media">
-          <img src="{{ '/images/shiva.png' | relative_url }}" alt="Photo of Shiva" loading="lazy" />
+        <div class="person-media" style="overflow:hidden; position:relative;">
+          <img src="{{ '/images/shiva.png' | relative_url }}"
+               alt="Photo of Shivasankar K.A"
+               loading="lazy"
+               style="width:100%; height:100%; object-fit:cover; object-position:center; transform:scale(1.35);">
         </div>
         <div class="person-body">
           <h3 class="person-name">Shivasankar K.A</h3>
