@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/images/logo.png" alt="AI+HEP" height="90" />
+  <img src="docs/images/logo_simple.png" alt="AI+HEP" height="90" />
   
   <h1>AI + HEP (East Asia) Website</h1>
   <p><strong>Community hub for advancing Artificial Intelligence in High Energy Physics across East Asia.</strong></p>
