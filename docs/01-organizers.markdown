@@ -85,9 +85,9 @@ order: 2
             <li class="person-tag">Performance</li>
             <li class="person-tag">Deep Learning</li>
           </ul>
-          <!-- <div class="person-bio-wrapper" data-bio> -->
+          <div class="person-bio-wrapper" data-bio>
             <p class="person-bio">Placeholder biography for Sung Hak. Replace with a concise academic and research summary highlighting key contributions.</p>
-          <!-- </div> -->
+          </div>
           <p class="person-contact"><strong>Email:</strong> <a href="mailto:sunghak.lim@ibs.re.kr">sunghak.lim@ibs.re.kr</a></p>
         </div>
       </div>
