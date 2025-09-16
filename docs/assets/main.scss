@@ -136,6 +136,45 @@ a:hover {
   margin-right: var(--spacing-sm);
 }
 
+/* For seminar page */
+.hero-tight { padding: 2.5rem 0 2rem; margin-bottom: 2.25rem; }
+
+.simple-card {
+  background: var(--gray-100);
+  border: 1px solid var(--border-color);
+  padding: 1.5rem 1.5rem 1.75rem;
+  border-radius: 18px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08), 0 6px 16px -4px rgba(0,0,0,0.15);
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 640px) { .simple-card { padding: 1.25rem 1.1rem 1.4rem; } }
+
+.simple-card .card-head { margin-bottom: .65rem; }
+.simple-card .card-title { margin: 0 0 .35rem; font-size: 1.12rem; }
+.simple-card .card-status { margin: 0 0 .3rem; font-size: .9rem; color: var(--text-secondary); }
+.simple-card .card-hint { margin: 0 0 .9rem; font-size: .75rem; opacity: .8; }
+
+.card-actions { display: flex; gap: .65rem; flex-wrap: wrap; margin-top: .1rem; }
+.btn-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: .85rem; }
+.inline-heading { display: inline-block; margin: 0 0 .4rem; font-size: 1rem; font-weight: 600; }
+
+.highlight-box.compact { padding: 1.15rem 1.2rem 1.3rem; }
+.highlight-box.compact p { margin-top: .35rem; }
+
+/* Workshop page utilities */
+.workshop-card .meta-list {
+  list-style: none;
+  margin: 0 0 0.75rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.workshop-card .meta-list li strong { color: var(--yin-dark); font-weight: 600; }
+
 .hero-section {
   background: linear-gradient(135deg, var(--yin-dark) 0%, var(--gray-800) 100%);
   color: var(--yang-light);
