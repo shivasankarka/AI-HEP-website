@@ -39,7 +39,9 @@ order: 2
 
 <style>
     .person-bio {
-        border: none
+        border: none;
+        background: none;
+        font-size: 0.95rem;
     }    
 </style>
 
