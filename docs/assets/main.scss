@@ -1,8 +1,13 @@
+---
+#
+---
+// The above frontmatter without anything written is very very very important! All goes haywire without it. Don't touch it xD.
+
 @import "minima";
 
+/* AI+HEP East Asia - Yin Yang Inspired Theme */
 
 :root {
-  /* Primary Colors - Yin Yang Balance */
   --yin-dark: #1a1a1a;         
   --yang-light: #ffffff;       
   --accent-color: #4a90e2;     
@@ -289,6 +294,7 @@ a:hover {
   font-weight: 500;
 }
 
+/* People / Organizers section */
 .organizer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -910,7 +916,6 @@ a:hover {
     margin-left: var(--spacing-sm) !important;
   }
   
-  /* Header logo mobile */
   .site-logo {
     width: 40px !important;
     height: 40px !important;
