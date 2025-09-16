@@ -37,6 +37,12 @@ order: 2
 })();
 </script>
 
+<style>
+    .person-bio {
+        border: none
+    }    
+</style>
+
 <div class="wrapper">
   <div class="content-section">
     <h2 class="section-title">Core Organizers</h2>
