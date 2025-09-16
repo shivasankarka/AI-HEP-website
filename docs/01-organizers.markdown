@@ -116,7 +116,7 @@ order: 2
       <!-- Organizer: Huilin Qu -->
       <div class="person-card">
         <div class="person-media">
-          <img src="{{ '/images/HuilinQu.JPG' | relative_url }}" alt="Photo of Huilin Qu" loading="lazy" />
+          <img src="{{ '/images/huilin.JPG' | relative_url }}" alt="Photo of Huilin Qu" loading="lazy" />
         </div>
         <div class="person-body">
           <h3 class="person-name">Huilin Qu</h3>
@@ -165,11 +165,11 @@ order: 2
 
   <div class="content-section">
     <h2 class="section-title">Volunteers</h2>
-    <p>Community volunteers contribute to operations, events, outreach, and technical infrastructure. Add profiles here as the community grows.</p>
+    <p>Community volunteers contribute to operations, events, outreach, and technical infrastructure.</p>
     <div class="volunteer-grid">
-      <div class="person-card volunteer-card placeholder-card">
-        <div class="person-media placeholder">
-          <div class="placeholder-initials">CD</div>
+      <div class="person-card volunteer-card">
+        <div class="person-media">
+          <img src="{{ '/images/shiva.png' | relative_url }}" alt="Photo of Shiva" loading="lazy" />
         </div>
         <div class="person-body">
           <h3 class="person-name">Shivasankar K.A</h3>
