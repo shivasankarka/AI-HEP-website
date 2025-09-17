@@ -29,7 +29,7 @@ order: 5
         <li><strong>Format:</strong> Virtual </li>
         <li><strong>Duration:</strong> 60 minutes with Q&A</li>
         <li><strong>Language:</strong> English</li>
-        <li><strong>Time:</strong> 3-4 PM Beijing Time</li>
+        <li><strong>Time:</strong> Monday 3 PM Beijing, 4 PM JST/KST</li>
       </ul>
     </div>
 
