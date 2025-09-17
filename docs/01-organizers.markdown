@@ -79,7 +79,7 @@ order: 2
       <div class="person-card">
         <div class="person-media placeholder">
           <!-- <div class="placeholder-initials">SL</div> -->
-          <img src="{{ '/images/sunghak.jpg' | relative_url }}" alt="Photo of Sung Hak Lim" loading="lazy" style="width:100%; height:100%; object-fit:contain; object-position:center; background:#f5f5f5;" />
+          <img src="{{ '/images/sunghak.png' | relative_url }}" alt="Photo of Sung Hak Lim" loading="lazy" style="width:100%; height:100%; object-fit:contain; object-position:center; background:#f5f5f5;" />
         </div>
         <div class="person-body">
           <h3 class="person-name">Sung Hak Lim</h3>
