@@ -128,7 +128,7 @@ order: 5
           <p class="journal-session-description">{{ session.description }}</p>
           {% endif %}
           {% if session.related_papers and session.related_papers.size > 0 %}
-          <details class="journal-related-papers">
+          <details class="journal-related-papers" open>
             <summary>Related Papers ({{ session.related_papers.size }})</summary>
             <ul>
               {% for paper in session.related_papers %}
