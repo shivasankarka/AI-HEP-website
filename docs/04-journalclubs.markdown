@@ -73,31 +73,32 @@ order: 5
     {% endif %} -->
 
     <h2 class="section-title">Past Sessions</h2>
-
-    <div class="journal-filter-bar" id="journal-filter-bar">
-      <div class="journal-filter-controls">
-        <label>
-          Show
-          <select id="session-limit" aria-label="Limit number of past sessions">
-            <option value="5">5</option>
-            <option value="10" selected>10</option>
-            <option value="15">15</option>
-            <option value="25">25</option>
-            <option value="all">All</option>
-          </select>
-        </label>
-        <label>
-          Before date
-          <input type="date" id="session-before-date" aria-label="Filter sessions before date" />
-        </label>
-        <label>
-          Search
-          <input type="search" id="session-keyword" placeholder="Topic, paper, arXiv..." aria-label="Keyword search" />
-        </label>
-        <button class="btn btn-outline" id="session-reset" type="button">Reset</button>
-      </div>
-      <div class="journal-filter-status" id="journal-filter-status" aria-live="polite"></div>
-    </div>
+    <!--
+        <div class="journal-filter-bar" id="journal-filter-bar">
+          <div class="journal-filter-controls">
+            <label>
+              Show
+              <select id="session-limit" aria-label="Limit number of past sessions">
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="15">15</option>
+                <option value="25">25</option>
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label>
+              Before date
+              <input type="date" id="session-before-date" aria-label="Filter sessions before date" />
+            </label>
+            <label>
+              Search
+              <input type="search" id="session-keyword" placeholder="Topic, paper, arXiv..." aria-label="Keyword search" />
+            </label>
+            <button class="btn btn-outline" id="session-reset" type="button">Reset</button>
+          </div>
+          <div class="journal-filter-status" id="journal-filter-status" aria-live="polite"></div>
+        </div>
+    -->
 
     {% assign past_sessions = site.data.journal_clubs.past | default: empty %}
     {% assign sorted_past = past_sessions | sort: "date" | reverse %}
