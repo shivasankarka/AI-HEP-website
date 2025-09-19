@@ -1052,3 +1052,15 @@ a:focus {
     color: var(--yin-dark) !important;
   }
 }
+
+// For desktop hero image
+.hero-section-fullscreen {
+  background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') center 61%/60% no-repeat;
+}
+
+// Modify mobile view of the logo
+@media (max-width: 768px) {
+  .hero-section-fullscreen {
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') 80% center/100% no-repeat;
+  }
+}

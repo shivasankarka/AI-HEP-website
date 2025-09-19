@@ -5,20 +5,6 @@
 layout: home
 ---
 
-<style>
-.hero-section-fullscreen {
-  /* Desktop background (default) */
-  background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') center 61%/60% no-repeat;
-}
-
-/* Mobile background settings */
-@media (max-width: 768px) {
-  .hero-section-fullscreen {
-    background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') 80% center/100% no-repeat;
-  }
-}
-</style>
-
 <div class="hero-section-fullscreen" style="height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; position: relative; box-sizing: border-box; margin-top: -60px; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-top: 100px;">
   <div style="text-align: center; max-width: 800px; padding: 1rem; width: 100%; margin: 0 auto;">
     <div style="margin-bottom: 2rem;">
