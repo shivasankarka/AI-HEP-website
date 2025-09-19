@@ -5,15 +5,15 @@
 layout: home
 ---
 
-<div class="hero-section-fullscreen" style="height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') center/cover no-repeat; position: relative; box-sizing: border-box; margin-top: -60px; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-top: 60px;">
-  <div style="text-align: center; max-width: 800px; padding: 1rem; width: 100%;">
+<div class="hero-section-fullscreen" style="height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; position: relative; box-sizing: border-box; margin-top: -60px; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-top: 100px;">
+  <div style="text-align: center; max-width: 800px; padding: 1rem; width: 100%; margin: 0 auto;">
     <div style="margin-bottom: 2rem;">
       <!-- <img src="{{ '/images/logo_simple.png' | relative_url }}" alt="AI+HEP East Asia Logo" style="width: 100px; height: 100px; margin-bottom: 1.5rem; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);"> -->
-      <h1 class="hero-title" style="font-size: 3.5rem; font-weight: 700; color: white; margin-bottom: 1rem; text-shadow: 0 4px 8px rgba(0,0,0,0.3); line-height: 1.1;">AI+HEP in East Asia</h1>
-      <p class="hero-subtitle" style="font-size: 1.3rem; color: rgba(255,255,255,0.9); margin-bottom: 1.5rem; font-weight: 300;">{{ site.tagline }}</p>
+      <h1 class="hero-title" style="font-size: clamp(2rem, 8vw, 3.5rem); font-weight: 700; color: white; margin-bottom: 1rem; text-shadow: 0 4px 8px rgba(0,0,0,0.3); line-height: 1.1; padding: 0 1rem;">AI+HEP in East Asia</h1>
+      <p class="hero-subtitle" style="font-size: clamp(1rem, 4vw, 1.3rem); color: rgba(255,255,255,0.9); margin-bottom: 1.5rem; font-weight: 300; padding: 0 1rem;">{{ site.tagline }}</p>
     </div>
-    
-    <p class="hero-description" style="font-size: 1.1rem; color: rgba(255,255,255,0.85); line-height: 1.5; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+
+    <p class="hero-description" style="font-size: clamp(1rem, 3vw, 1.1rem); color: rgba(255,255,255,0.85); line-height: 1.5; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; padding: 0 1rem;">
       A collaborative community of high energy physicists exploring the intersection 
       of artificial intelligence and particle physics through research, education, and innovation.
     </p>
