@@ -5,12 +5,14 @@ permalink: /journalclubs/
 order: 5
 ---
 
+<!--
 <div class="hero-section" style="padding: 2rem 0; margin-bottom: 2rem;">
   <div class="wrapper">
     <h1 class="hero-title" style="font-size: 2.5rem;">Journal Clubs</h1>
     <p class="hero-subtitle">Exploring the Latest in AI + High Energy Physics</p>
   </div>
 </div>
+-->
 
 <div class="wrapper">
   <div class="content-section">
@@ -27,7 +29,7 @@ order: 5
         <li><strong>Format:</strong> Virtual </li>
         <li><strong>Duration:</strong> 60 minutes with Q&A</li>
         <li><strong>Language:</strong> English</li>
-        <li><strong>Time:</strong> 3-4 PM Beijing Time</li>
+        <li><strong>Time:</strong> Monday 3 PM Beijing, 4 PM JST/KST</li>
       </ul>
     </div>
 

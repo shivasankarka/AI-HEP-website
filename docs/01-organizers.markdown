@@ -37,6 +37,13 @@ order: 2
 })();
 </script>
 
+<style>
+    .person-bio {
+        border: none;
+        font-size: 0.85rem;
+    }    
+</style>
+
 <div class="wrapper">
   <div class="content-section">
     <h2 class="section-title">Organizers</h2>
@@ -71,24 +78,25 @@ order: 2
       <!-- Organizer: Sung Hak Lim (Placeholder Image) -->
       <div class="person-card">
         <div class="person-media placeholder">
-          <div class="placeholder-initials">SL</div>
+          <!-- <div class="placeholder-initials">SL</div> -->
+          <img src="{{ '/images/sunghak.png' | relative_url }}" alt="Photo of Sung Hak Lim" loading="lazy" style="width:100%; height:100%; object-fit:contain; object-position:center; background:#f5f5f5;" />
         </div>
         <div class="person-body">
           <h3 class="person-name">Sung Hak Lim</h3>
           <div class="person-role-block">
-            <span class="person-role">Researcher</span>
-            <span class="person-affiliation">(Add Institution)</span>
+            <span class="person-role">Senior Researcher</span>
+            <span class="person-affiliation">CTPU-PTC, Institute for Basic Science</span>
           </div>
           <ul class="person-tags">
-            <li class="person-tag">Jet Physics</li>
-            <li class="person-tag">Anomaly Detection</li>
-            <li class="person-tag">Performance</li>
-            <li class="person-tag">Deep Learning</li>
+            <li class="person-tag">Galactic Dynamics</li>
+            <li class="person-tag">Dark Matter Physics</li>
+            <li class="person-tag">Collider & Jet Physics</li>
+            <li class="person-tag">ML for Science</li>
           </ul>
           <div class="person-bio-wrapper" data-bio>
             <p class="person-bio">Placeholder biography for Sung Hak. Replace with a concise academic and research summary highlighting key contributions.</p>
           </div>
-          <p class="person-contact"><strong>Email:</strong> <a href="mailto:tianjiresearch@gmail.com">tianjiresearch@gmail.com</a></p>
+          <p class="person-contact"><strong>Email:</strong> <a href="mailto:sunghak.lim@ibs.re.kr">sunghak.lim@ibs.re.kr</a></p>
         </div>
       </div>
 
