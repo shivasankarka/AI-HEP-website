@@ -22,12 +22,12 @@ order: 1
     <h2 class="section-title">Research Focus</h2>
     <div class="card-grid">
       <div class="card">
-        <h3 class="card-title">🔬 AI for Physics</h3>
+        <h3 class="card-title"> AI for Physics</h3>
         <p>Developing novel AI methods for particle theory, experiments, astrophysics, and cosmology challenges.</p>
       </div>
       
       <div class="card">
-        <h3 class="card-title">🧠 Physics for AI</h3>
+        <h3 class="card-title"> Physics for AI</h3>
         <p>Leveraging theoretical physics insights to understand and improve next-generation AI systems.</p>
       </div>
     </div>
@@ -45,7 +45,7 @@ order: 1
     </div>
   </div>
 
-  <div style="text-align: center; margin-top: 3rem;">
+  <div class="btn-row center" style="margin-top: 3rem;">
     <a href="/organizers/" class="btn">Meet Our Team</a>
     <a href="/workshops/" class="btn btn-outline">View Events</a>
   </div>

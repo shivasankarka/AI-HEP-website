@@ -22,7 +22,7 @@ order: 3
     <h2 class="section-title">Latest Workshop</h2>
     <div class="simple-card workshop-card">
       <header class="card-head">
-        <h3 class="card-title">🗓️ AI+HEP Workshop 2025</h3>
+        <h3 class="card-title"> AI+HEP Workshop 2025</h3>
       </header>
       <ul class="meta-list">
         <li><strong>Dates:</strong> Feb 23–28, 2025</li>

@@ -39,7 +39,7 @@ order: 2
 
 <div class="wrapper">
   <div class="content-section">
-    <h2 class="section-title">Core Organizers</h2>
+    <h2 class="section-title">Organizers</h2>
     <p>Our community is guided by dedicated researchers across East Asia advancing AI and high energy physics.</p>
 
     <div class="organizer-grid">
@@ -135,30 +135,6 @@ order: 2
           <p class="person-contact"><strong>Email:</strong> <a href="mailto:huilin.qu@cern.ch">huilin.qu@cern.ch</a></p>
         </div>
       </div>
-
-      <!-- Organizer: Placeholder 1 -->
-      <div class="person-card">
-        <div class="person-media placeholder">
-          <div class="placeholder-initials">AB</div>
-        </div>
-        <div class="person-body">
-          <h3 class="person-name">Ahmed Hammad</h3>
-          <div class="person-role-block">
-            <span class="person-role">(Add Position)</span>
-            <span class="person-affiliation">(Add Institution)</span>
-          </div>
-          <ul class="person-tags">
-            <li class="person-tag">Interest 1</li>
-            <li class="person-tag">Interest 2</li>
-            <li class="person-tag">Interest 3</li>
-          </ul>
-          <div class="person-bio-wrapper" data-bio>
-            <p class="person-bio">Placeholder biography. Add academic background, research areas, and regional collaboration role.</p>
-          </div>
-          <p class="person-contact"><strong>Email:</strong> <a href="mailto:huilin.qu@cern.ch"> asdf </a></p>
-        </div>
-      </div>
-
     </div>
   </div>
 
