@@ -21,6 +21,9 @@ order: 3
   <section class="content-section">
     <h2 class="section-title">Latest Workshop</h2>
     <div class="simple-card workshop-card">
+      <div class="workshop-image" style="margin-bottom: 1.5rem;">
+        <img src="{{ '/images/aihep2025.jpg' | relative_url }}" alt="AI+HEP Workshop 2025 Group Photo" style="width: 100%; height: 250px; object-fit: cover; object-position: center 40%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      </div>
       <header class="card-head">
         <h3 class="card-title"> AI+HEP Workshop 2025</h3>
       </header>
