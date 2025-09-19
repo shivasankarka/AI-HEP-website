@@ -35,8 +35,8 @@ order: 4
   <section class="content-section">
     <h2 class="section-title">Participate</h2>
     <div class="highlight-box compact">
-      <h3 class="inline-heading">🎤 Present Your Work</h3>
-      <p>We welcome proposals from researchers at all career stages. Send a short abstract or idea.</p>
+      <h3 class="inline-heading"> Present Your Work</h3>
+      <p>We welcome proposals from researchers at all career stages. Send a short abstract or idea to the Organizers!</p>
       <div class="btn-row">
         <a href="mailto:contact@ai-hep.org" class="btn">Propose a Talk</a>
         <a href="/organizers/" class="btn btn-outline">Contact Team</a>

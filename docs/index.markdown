@@ -5,8 +5,8 @@
 layout: home
 ---
 
-<div class="hero-section-fullscreen" style="height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') center/cover no-repeat; position: relative; box-sizing: border-box; margin-top: -60px; padding-top: 60px;">
-  <div class="wrapper" style="text-align: center; max-width: 800px; padding: 1rem;">
+<div class="hero-section-fullscreen" style="height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, rgba(26, 26, 26, 0.8), rgba(52, 58, 64, 0.8)), url('{{ '/images/hero_simple.png' | relative_url }}') center/cover no-repeat; position: relative; box-sizing: border-box; margin-top: -60px; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); padding-top: 60px;">
+  <div style="text-align: center; max-width: 800px; padding: 1rem; width: 100%;">
     <div style="margin-bottom: 2rem;">
       <!-- <img src="{{ '/images/logo_simple.png' | relative_url }}" alt="AI+HEP East Asia Logo" style="width: 100px; height: 100px; margin-bottom: 1.5rem; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);"> -->
       <h1 class="hero-title" style="font-size: 3.5rem; font-weight: 700; color: white; margin-bottom: 1rem; text-shadow: 0 4px 8px rgba(0,0,0,0.3); line-height: 1.1;">AI+HEP in East Asia</h1>
@@ -18,9 +18,9 @@ layout: home
       of artificial intelligence and particle physics through research, education, and innovation.
     </p>
     
-    <div style="margin-bottom: 2rem;">
-      <a href="/about/" class="btn-hero" style="display: inline-block; background: rgba(255,255,255,0.95); color: #667eea; padding: 0.8rem 1.8rem; margin: 0.5rem; font-weight: 600; border-radius: 50px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Learn More</a>
-      <a href="/workshops/" class="btn-hero-outline" style="display: inline-block; background: transparent; border: 2px solid rgba(255,255,255,0.8); color: white; padding: 0.8rem 1.8rem; margin: 0.5rem; font-weight: 600; border-radius: 50px; text-decoration: none; transition: all 0.3s ease;">View Events</a>
+    <div class="btn-row center" style="margin-bottom: 2rem;">
+      <a href="/about/" class="btn hero-variant">Learn More</a>
+      <a href="/workshops/" class="btn-outline hero-variant">View Events</a>
     </div>
   </div>
   
@@ -33,19 +33,14 @@ layout: home
 <div class="wrapper">
   <div class="content-section" style="margin-top: 4rem;">
     <div class="card-grid">
-      <!-- <div class="card">
-        <h3 class="card-title">🎯 Our Mission</h3>
-        <p>We develop novel AI methods tailored for high energy physics and use our understanding of complex systems to advance next-generation AI technologies.</p>
-      </div> -->
-
       <div class="card">
-        <h3 class="card-title">🔬 Research & Education</h3>
+        <h3 class="card-title"> Research & Education</h3>
         <p>Comprehensive programs covering particle theory, experimental physics, astrophysics, cosmology, and AI/ML methodologies for physics applications.</p>
       </div>
 
       <div class="card">
-        <h3 class="card-title">🤝 Community Activities</h3>
-        <p>Annual workshops, monthly seminars, journal clubs, and collaborative projects bringing together researchers across East Asia.</p>
+        <h3 class="card-title"> Community Activities</h3>
+        <p>Annual workshops, monthly seminars, journal clubs, and collaborative projects bringing together researchers across East Asia and beyond.</p>
       </div>
     </div>
   </div>
@@ -55,7 +50,7 @@ layout: home
     <p><strong>June 2025:</strong> Welcome to our new community website! Stay tuned for upcoming workshops and seminars.</p>
   </div>
 
-  <div style="text-align: center; margin: 3rem 0;">
+  <div class="btn-row center" style="margin: 3rem 0;">
     <a href="/organizers/" class="btn">Meet Our Team</a>
     <a href="/seminars/" class="btn btn-outline">Upcoming Events</a>
   </div>

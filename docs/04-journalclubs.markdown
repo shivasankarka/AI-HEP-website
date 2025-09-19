@@ -75,74 +75,65 @@ order: 5
     {% endif %} -->
 
     <h2 class="section-title">Past Sessions</h2>
-    <!--
-        <div class="journal-filter-bar" id="journal-filter-bar">
-          <div class="journal-filter-controls">
-            <label>
-              Show
-              <select id="session-limit" aria-label="Limit number of past sessions">
-                <option value="5">5</option>
-                <option value="10" selected>10</option>
-                <option value="15">15</option>
-                <option value="25">25</option>
-                <option value="all">All</option>
-              </select>
-            </label>
-            <label>
-              Before date
-              <input type="date" id="session-before-date" aria-label="Filter sessions before date" />
-            </label>
-            <label>
-              Search
-              <input type="search" id="session-keyword" placeholder="Topic, paper, arXiv..." aria-label="Keyword search" />
-            </label>
-            <button class="btn btn-outline" id="session-reset" type="button">Reset</button>
-          </div>
-          <div class="journal-filter-status" id="journal-filter-status" aria-live="polite"></div>
-        </div>
-    -->
+
+    <div class="journal-filter-bar" id="journal-filter-bar">
+      <div class="journal-filter-controls">
+        <label>
+          Before date
+          <input type="date" id="session-before-date" aria-label="Filter sessions before date" />
+        </label>
+        <label>
+          Search
+          <input type="search" id="session-keyword" placeholder="Topic, paper, arXiv..." aria-label="Keyword search" />
+        </label>
+        <button class="btn btn-outline" id="session-reset" type="button">Reset</button>
+      </div>
+      <div class="journal-filter-status" id="journal-filter-status" aria-live="polite"></div>
+    </div>
 
     {% assign past_sessions = site.data.journal_clubs.past | default: empty %}
     {% assign sorted_past = past_sessions | sort: "date" | reverse %}
     {% if sorted_past.size > 0 %}
-      <div id="past-sessions" class="journal-past-grid">
+      <div id="past-sessions" class="journal-list">
       {% for session in sorted_past %}
-        <div class="journal-session-card" data-date="{{ session.date }}">
-          <div class="journal-session-header">
+        <article class="journal-session-item" data-date="{{ session.date }}">
+          <aside class="jsi-meta">
             <span class="journal-session-date">{{ session.date }}</span>
-            <!-- time is not really needed, it just makes everything look congested -->
-            <!-- <span class="journal-session-time">{{ session.time }}</span>  -->
+            <!-- <span class="journal-session-time">{{ session.time }}</span> -->
+          </aside>
+          <div class="jsi-body">
+            <h3 class="journal-session-title">{{ session.topic }}</h3>
+            {% if session.focused_paper and session.focused_paper.title %}
+              <div class="journal-focused-paper minimal">
+                <span class="jf-label">Focused</span>
+                <span class="jf-title">
+                        {% if session.focused_paper.url %}
+                        <a href="{{ session.focused_paper.url }}" target="_blank">{{ session.focused_paper.title }}</a>
+                        {% else %}
+                        {{ session.focused_paper.title }}
+                        {% endif %}
+                        {% if session.focused_paper.arxiv %} (arXiv:{{ session.focused_paper.arxiv }}){% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if session.description %}
+            <p class="journal-session-description">{{ session.description }}</p>
+            {% endif %}
+            {% if session.related_papers and session.related_papers.size > 0 %}
+            <details class="journal-related-papers">
+              <summary>Related Papers ({{ session.related_papers.size }})</summary>
+              <ul>
+                {% for paper in session.related_papers %}
+                <li>
+                  {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+                  {% if paper.arxiv %}<span class="journal-arxiv">(arXiv:{{ paper.arxiv }})</span>{% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </details>
+            {% endif %}
           </div>
-          <h3 class="journal-session-title">{{ session.topic }}</h3>
-          {% if session.focused_paper and session.focused_paper.title %}
-            <div class="journal-focused-paper minimal">
-              <span class="jf-label">Focused</span>
-              <span class="jf-title">
-                      {% if session.focused_paper.url %}
-                      <a href="{{ session.focused_paper.url }}" target="_blank">{{ session.focused_paper.title }}</a>
-                      {% else %}
-                      {{ session.focused_paper.title }}
-                      {% endif %}
-                      {% if session.focused_paper.arxiv %} (arXiv:{{ session.focused_paper.arxiv }}){% endif %}
-                      </span>    </div>
-          {% endif %}
-          {% if session.description %}
-          <p class="journal-session-description">{{ session.description }}</p>
-          {% endif %}
-          {% if session.related_papers and session.related_papers.size > 0 %}
-          <details class="journal-related-papers" open>
-            <summary>Related Papers ({{ session.related_papers.size }})</summary>
-            <ul>
-              {% for paper in session.related_papers %}
-              <li>
-                {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
-                {% if paper.arxiv %}<span class="journal-arxiv">(arXiv:{{ paper.arxiv }})</span>{% endif %}
-              </li>
-              {% endfor %}
-            </ul>
-          </details>
-          {% endif %}
-        </div>
+        </article>
       {% endfor %}
       </div>
     {% else %}
@@ -151,6 +142,7 @@ order: 5
 
     <!-- TODO: Maybe expand or shorten this later. It looks like a wall of text right now! -->
       <div class="content-section">
+      <br>
         <h2 class="section-title">Discussion Topics</h2>
         <p style="margin-bottom: 2rem;">Our journal club sessions explore cutting-edge research at the intersection of AI and high energy physics, covering both foundational advances and cross-disciplinary applications:</p>
             
@@ -197,16 +189,14 @@ order: 5
             </div>
 
 <script>
-  // Pray this scripts works in prod.
   (function(){
-    const limitSelect = document.getElementById('session-limit');
     const beforeInput = document.getElementById('session-before-date');
     const keywordInput = document.getElementById('session-keyword');
     const resetBtn = document.getElementById('session-reset');
     const statusEl = document.getElementById('journal-filter-status');
     const container = document.getElementById('past-sessions');
     if(!container) return;
-    const cards = Array.from(container.querySelectorAll('.journal-session-card'));
+    const cards = Array.from(container.querySelectorAll('.journal-session-item'));
 
     cards.forEach(card => {
       const ds = card.getAttribute('data-date');
@@ -228,7 +218,6 @@ order: 5
     }
 
     function applyFilters(){
-      const limitVal = limitSelect.value;
       const beforeVal = beforeInput.value ? new Date(beforeInput.value + 'T00:00:00Z') : null;
       const kwRaw = keywordInput.value.trim().toLowerCase();
       const kwTokens = kwRaw.length ? kwRaw.split(/\s+/).filter(Boolean) : [];
@@ -243,19 +232,11 @@ order: 5
         return true;
       });
 
-      let limited = filtered;
-      if(limitVal !== 'all') {
-        const n = parseInt(limitVal, 10);
-        limited = filtered.slice(0, n);
-      }
-
-      // Update DOM visibility
       cards.forEach(c => c.classList.add('is-filter-hidden'));
-      limited.forEach(c => c.classList.remove('is-filter-hidden'));
+      filtered.forEach(c => c.classList.remove('is-filter-hidden'));
 
-      // Empty state handling
       let emptyState = container.querySelector('.journal-empty-state');
-      if(!limited.length){
+      if(!filtered.length){
         if(!emptyState){
           emptyState = document.createElement('div');
           emptyState.className = 'journal-empty-state';
@@ -268,8 +249,7 @@ order: 5
       }
 
       const parts = [];
-      parts.push(limited.length + ' shown');
-      if(limited.length !== filtered.length) parts.push('of ' + filtered.length + ' match');
+      parts.push(filtered.length + ' match');
       if(kwTokens.length) parts.push('keywords: ' + kwTokens.join(', '));
       if(beforeVal) parts.push('before ' + formatDate(beforeVal));
       parts.push('total ' + cards.length);
@@ -278,11 +258,9 @@ order: 5
 
     const applyFiltersDebounced = debounce(applyFilters, 160);
 
-    limitSelect.addEventListener('change', applyFilters);
     beforeInput.addEventListener('change', applyFilters);
     keywordInput.addEventListener('input', applyFiltersDebounced);
     resetBtn.addEventListener('click', () => {
-      limitSelect.value = '10';
       beforeInput.value = '';
       keywordInput.value = '';
       applyFilters();

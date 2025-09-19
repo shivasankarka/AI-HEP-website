@@ -22,22 +22,22 @@ order: 7
     <h2 class="section-title">How to Participate</h2>
     <div class="card-grid">
       <div class="card">
-        <h3 class="card-title">💡 Post Projects</h3>
+        <h3 class="card-title"> Post Projects</h3>
         <p>Share your research ideas and project descriptions to find collaborators</p>
       </div>
       
       <div class="card">
-        <h3 class="card-title">🤝 Find Partners</h3>
+        <h3 class="card-title"> Find Partners</h3>
         <p>Browse existing projects and connect with researchers in your area</p>
       </div>
       
       <div class="card">
-        <h3 class="card-title">🎓 Student Opportunities</h3>
+        <h3 class="card-title"> Student Opportunities</h3>
         <p>Students can find research projects and mentorship opportunities</p>
       </div>
       
       <div class="card">
-        <h3 class="card-title">📊 Track Progress</h3>
+        <h3 class="card-title"> Track Progress</h3>
         <p>Update project status and share results with the community</p>
       </div>
     </div>
@@ -46,7 +46,7 @@ order: 7
   <div class="content-section">
     <h2 class="section-title">Get Started</h2>
     <div class="highlight-box">
-      <h3>🚀 Post Your Project</h3>
+      <h3> Post Your Project</h3>
       <p>Ready to start a collaborative project or looking for research partners? Contact our team to post your project on the board.</p>
       
       <div style="text-align: center; margin-top: 2rem;">

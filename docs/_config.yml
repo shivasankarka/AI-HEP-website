@@ -1,10 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# Welcome to Jekyll!title: AI+HEP in East Asia
+email: contact@ai-hep.org
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
@@ -17,17 +12,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+#   - vmikuni@cern.ch - huilin.qu@cern.ch
 title: AI+HEP in East Asia
-email: contact@ai-hep.org
+email: tianjiresearch@gmail.com, vmikuni@cern.ch, huilin.qu@cern.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  A collaborative community of high energy physicists in East Asia exploring 
+  A collaborative community of high energy physicists in East Asia and beyond exploring 
   the intersection of artificial intelligence and particle physics. We organize 
   workshops, seminars, and educational activities to advance AI+HEP research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ai-hep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username: ai-hep
+# github_username: ai-hep
 
 # Build settings
 theme: minima
@@ -37,8 +32,8 @@ plugins:
 # Minima theme settings
 minima:
   skin: auto
-  social_links:
-    github: ai-hep
+  # social_links:
+    # github: ai-hep
     # twitter: your_username
     # linkedin: your_username
 
