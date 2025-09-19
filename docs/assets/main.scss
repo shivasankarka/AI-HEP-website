@@ -136,7 +136,8 @@ a:hover {
   margin-right: var(--spacing-sm);
 }
 
-/* For seminar page */
+
+// SEMINARS 
 .hero-tight { padding: 2.5rem 0 2rem; margin-bottom: 2.25rem; }
 
 .simple-card {
@@ -162,7 +163,7 @@ a:hover {
 .highlight-box.compact { padding: 1.15rem 1.2rem 1.3rem; }
 .highlight-box.compact p { margin-top: .35rem; }
 
-/* Workshop page utilities */
+// WORKSHOP
 .workshop-card .meta-list {
   list-style: none;
   margin: 0 0 0.75rem 0;
@@ -373,7 +374,7 @@ a:hover {
   font-weight: 500;
 }
 
-/* People / Organizers section */
+// Team section
 .organizer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -960,7 +961,7 @@ a:hover {
   .journal-filter-controls label { width: 100%; }
 }
 
-/* Journal club cards */
+// Journal club list style 
 .journal-list {
   display: flex;
   flex-direction: column;
@@ -1001,7 +1002,6 @@ a:hover {
     font-size: 1.1rem !important;
   }
   
-  /* Hero section mobile adjustments */
   .hero-section .wrapper > div:first-child {
     flex-direction: column !important;
     text-align: center !important;

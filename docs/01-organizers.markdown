@@ -13,15 +13,13 @@ order: 2
 </div>
 
 <script>
-// Expand / collapse long bios
 (function(){
   const wrappers = document.querySelectorAll('.person-bio-wrapper');
   wrappers.forEach(w => {
     const p = w.querySelector('.person-bio');
     const btn = w.querySelector('[data-toggle]');
     if(!p || !btn) return;
-    const lineClamp = 6; // lines before clamp
-    // Apply initial clamp via CSS class; JS fallback for browsers without line-clamp support handled by max-height.
+    const lineClamp = 6; 
     w.classList.add('is-clamped');
     btn.addEventListener('click', () => {
       const expanded = w.classList.toggle('is-expanded');

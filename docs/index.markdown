@@ -33,11 +33,6 @@ layout: home
 <div class="wrapper">
   <div class="content-section" style="margin-top: 4rem;">
     <div class="card-grid">
-      <!-- <div class="card">
-        <h3 class="card-title">🎯 Our Mission</h3>
-        <p>We develop novel AI methods tailored for high energy physics and use our understanding of complex systems to advance next-generation AI technologies.</p>
-      </div> -->
-
       <div class="card">
         <h3 class="card-title"> Research & Education</h3>
         <p>Comprehensive programs covering particle theory, experimental physics, astrophysics, cosmology, and AI/ML methodologies for physics applications.</p>
