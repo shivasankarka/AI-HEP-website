@@ -92,7 +92,7 @@ order: 2
             <li class="person-tag">ML for Science</li>
           </ul>
           <div class="person-bio-wrapper" data-bio>
-            <p class="person-bio">Placeholder biography for Sung Hak. Replace with a concise academic and research summary highlighting key contributions.</p>
+            <p class="person-bio">Sung Hak Lim is a Senior Researcher at the Center for Theoretical Physics of the Universe (CTPU-PTC), Institute for Basic Science in South Korea. He earned his Ph.D. from KAIST in 2017, and worked in postdoctoral positions at KEK in Japan (2017-2020) and Rutgers University (2020-2024). His research focuses on combining physics principles with machine learning techniques to advance fundamental physics problems. His current primary work uses advanced neural network methods to map dark matter in the Milky Way and nearby dwarf galaxies. He also develops physics-inspired machine learning methods for identifying particle signals at large hadron colliders and studying dark matter halos of galaxies, with the ultimate goal of revealing the true nature of dark matter.</p>
           </div>
           <p class="person-contact"><strong>Email:</strong> <a href="mailto:sunghak.lim@ibs.re.kr">sunghak.lim@ibs.re.kr</a></p>
         </div>
