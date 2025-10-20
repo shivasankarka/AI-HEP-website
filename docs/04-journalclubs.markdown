@@ -141,7 +141,7 @@ order: 5
     {% endif %}
 
     <!-- TODO: Maybe expand or shorten this later. It looks like a wall of text right now! -->
-      <div class="content-section">
+      <!-- <div class="content-section">
       <br>
         <h2 class="section-title">Discussion Topics</h2>
         <p style="margin-bottom: 2rem;">Our journal club sessions explore cutting-edge research at the intersection of AI and high energy physics, covering both foundational advances and cross-disciplinary applications:</p>
@@ -186,7 +186,7 @@ order: 5
               <h3 class="card-title"> Cross-Disciplinary Applications</h3>
               <p>AI techniques adapted for lattice QCD, physics principles applied to improve neural network training, and quantum machine learning for particle physics.</p>
               </div>
-            </div>
+            </div> -->
 
 <script>
   (function(){
