@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <h3> Join Our Community</h3>
       <p>Interested in contributing to our organizing efforts or participating in our activities? We welcome new members and collaborators who want to advance AI+HEP research and education in East Asia.</p>
       <div style="text-align: center; margin-top: 2rem;">
-        <a href="mailto:contact@ai-hep.org" class="btn">Contact Us</a>
+        <a href="https://groups.google.com/g/hep-aie" class="btn">Contact Us</a>
         <a href="/workshops/" class="btn btn-outline">View events</a>
       </div>
     </div>
