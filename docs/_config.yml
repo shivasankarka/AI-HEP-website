@@ -1,5 +1,5 @@
 # Welcome to Jekyll!title: AI+HEP in East Asia
-email: contact@ai-hep.org
+# email: contact@ai-hep.org
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
@@ -14,10 +14,11 @@ email: contact@ai-hep.org
 # in the templates via {{ site.myvariable }}.
 #   - vmikuni@cern.ch - huilin.qu@cern.ch
 title: AI+HEP in East Asia
-email: tianjiresearch@gmail.com, vmikuni@cern.ch, huilin.qu@cern.ch
+# email: tianjiresearch@gmail.com, vmikuni@cern.ch, huilin.qu@cern.ch
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  A collaborative community of high energy physicists in East Asia and beyond exploring 
-  the intersection of artificial intelligence and particle physics. We organize 
+  A collaborative community of scientists exploring the intersection 
+  of artificial intelligence and fundamental physics through research, education, and innovation. We organize 
   workshops, seminars, and educational activities to advance AI+HEP research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ai-hep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -39,7 +40,7 @@ minima:
 
 # Header navigation
 header_pages:
-  - 00-about.markdown
+  # - 00-about.markdown
   - 01-organizers.markdown
   - 02-workshops.markdown
   - 03-seminars.markdown
@@ -49,7 +50,7 @@ header_pages:
 
 # Custom variables
 organization: "AI+HEP East Asia Community"
-tagline: "Advancing AI in High Energy Physics"
+tagline: "Where AI meets fundamental physics"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
