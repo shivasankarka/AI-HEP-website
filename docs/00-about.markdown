@@ -8,7 +8,7 @@ order: 1
 <div class="hero-section" style="padding: 3rem 0; margin-bottom: 3rem;">
   <div class="wrapper">
     <h1 class="hero-title" style="font-size: 2.5rem;">About AI+HEP East Asia</h1>
-    <p class="hero-subtitle" style="font-size: 1.2rem;">Advancing AI and High Energy Physics Research</p>
+    <p class="hero-subtitle" style="font-size: 1.2rem;"></p>
   </div>
 </div>
 
