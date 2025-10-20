@@ -31,15 +31,15 @@ layout: home
 </div>
 
 <div class="wrapper">
-  <div class="content-section" style="margin-top: 4rem;">
+  <div class="content-section" style="margin-top: 4rem; padding: 2rem;">
     <div class="card-grid">
       <div class="card">
-        <h3 class="card-title"> Research & Education</h3>
+        <h3 class="card-title">Research & Education</h3>
         <p>Comprehensive programs covering particle theory, experimental physics, astrophysics, cosmology, and AI/ML methodologies for physics applications.</p>
       </div>
 
       <div class="card">
-        <h3 class="card-title"> Community Activities</h3>
+        <h3 class="card-title">Community Activities</h3>
         <p>Annual workshops, monthly seminars, journal clubs, and collaborative projects bringing together researchers across East Asia and beyond.</p>
       </div>
     </div>
@@ -47,7 +47,7 @@ layout: home
 
   <div class="news-section">
     <h2 class="news-title">📢 Latest News</h2>
-    <p><strong>June 2025:</strong> Welcome to our new community website! Stay tuned for upcoming workshops and seminars.</p>
+    <p><strong>January 2026:</strong> Join us at the <strong>AI+HEP Workshop 2026</strong> at KEK, Tsukuba, Japan (Jan 19-23, 2026)! <a href="/workshops/">View details →</a></p>
   </div>
 
   <div class="btn-row center" style="margin: 3rem 0;">
