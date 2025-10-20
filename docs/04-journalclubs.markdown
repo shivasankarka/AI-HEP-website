@@ -76,6 +76,7 @@ order: 5
 
     <h2 class="section-title">Past Sessions</h2>
 
+    <!--
     <div class="journal-filter-bar" id="journal-filter-bar">
       <div class="journal-filter-controls">
         <label>
@@ -90,11 +91,12 @@ order: 5
       </div>
       <div class="journal-filter-status" id="journal-filter-status" aria-live="polite"></div>
     </div>
+    -->
 
     {% assign past_sessions = site.data.journal_clubs.past | default: empty %}
     {% assign sorted_past = past_sessions | sort: "date" | reverse %}
     {% if sorted_past.size > 0 %}
-      <div id="past-sessions" class="journal-list">
+      <div id="past-sessions" class="journal-list" style="max-height: none;">
       {% for session in sorted_past %}
         <article class="journal-session-item" data-date="{{ session.date }}">
           <aside class="jsi-meta">
@@ -120,7 +122,7 @@ order: 5
             <p class="journal-session-description">{{ session.description }}</p>
             {% endif %}
             {% if session.related_papers and session.related_papers.size > 0 %}
-            <details class="journal-related-papers">
+            <details class="journal-related-papers" open>
               <summary>Related Papers ({{ session.related_papers.size }})</summary>
               <ul>
                 {% for paper in session.related_papers %}
@@ -141,7 +143,8 @@ order: 5
     {% endif %}
 
     <!-- TODO: Maybe expand or shorten this later. It looks like a wall of text right now! -->
-      <!-- <div class="content-section">
+    <!--
+      <div class="content-section">
       <br>
         <h2 class="section-title">Discussion Topics</h2>
         <p style="margin-bottom: 2rem;">Our journal club sessions explore cutting-edge research at the intersection of AI and high energy physics, covering both foundational advances and cross-disciplinary applications:</p>
@@ -186,8 +189,8 @@ order: 5
               <h3 class="card-title"> Cross-Disciplinary Applications</h3>
               <p>AI techniques adapted for lattice QCD, physics principles applied to improve neural network training, and quantum machine learning for particle physics.</p>
               </div>
-            </div> -->
-
+            </div>
+     -->
 <script>
   (function(){
     const beforeInput = document.getElementById('session-before-date');
