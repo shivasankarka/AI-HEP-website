@@ -15,7 +15,7 @@ order: 4
 <div class="wrapper">
   <section class="content-section">
     <h2 class="section-title">Overview</h2>
-    <p>Monthly online seminars featuring researchers sharing current advances in AI for high energy physics. Open to all interested participants across East Asia and beyond.</p>
+    <p>Online joint seminars at the intersection of AI and fundamental physics open to all participants. Open to all interested participants across East Asia and beyond.</p>
   </section>
 
   <section class="content-section">
@@ -25,21 +25,32 @@ order: 4
         <h3 class="card-title">🗓️ Fall 2025 Series</h3>
       </header>
       <p class="card-status"><strong>Schedule coming soon</strong></p>
-      <p class="card-hint">We are finalizing invited speakers and dates.</p>
+      <!-- <p class="card-hint">We are finalizing invited speakers and dates.</p>
       <div class="card-actions">
-        <a href="mailto:contact@ai-hep.org" class="btn btn-outline">Get Updates</a>
-      </div>
+        <a href="mailto:contact@ai-hep.org" class="btn btn-outline">Get Updates</a> -->
+      <!-- </div> -->
     </div>
   </section>
 
   <section class="content-section">
     <h2 class="section-title">Participate</h2>
     <div class="highlight-box compact">
-      <h3 class="inline-heading"> Present Your Work</h3>
-      <p>We welcome proposals from researchers at all career stages. Send a short abstract or idea to the Organizers!</p>
-      <div class="btn-row">
-        <a href="mailto:contact@ai-hep.org" class="btn">Propose a Talk</a>
-        <a href="/organizers/" class="btn btn-outline">Contact Team</a>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+        <div>
+          <h3 class="inline-heading"> Present Your Work</h3>
+          <p style="margin-bottom: 1rem;">We welcome proposals from researchers at all career stages. Send a short abstract or idea to the Organizers!</p>
+          <div class="btn-row">
+            <a href="https://groups.google.com/g/hep-aiea" class="btn">Propose a Talk</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="inline-heading"> Advertise Your Seminars</h3>
+          <p style="margin-bottom: 1rem;">Share your own seminars and events with the community via our Slack workspace.</p>
+          <div class="btn-row">
+            <a href="mailto:tianjiresearch@gmail.com,vmikuni@cern.ch,huilin.qu@cern.ch?subject=Request%20Slack%20invitation%20for%20AI%20%2B%20HEP&body=Hi%2C%0A%0AI%27d%20like%20to%20join%20the%20AI%2BHEP%20East%20Asia%20Slack%20workspace.%0A%0AName%3A%20%0AInstitution%3A%20%0AResearch%20interests%3A%20%0A%0AThank%20you%21" class="btn">Join Slack</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>

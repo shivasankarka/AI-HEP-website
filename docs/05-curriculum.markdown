@@ -5,61 +5,78 @@ permalink: /curriculum/
 order: 6
 ---
 
-<div class="hero-section" style="padding: 3rem 0; margin-bottom: 3rem;">
+<section class="hero-section hero-tight">
   <div class="wrapper">
-    <h1 class="hero-title" style="font-size: 2.5rem;">AI+HEP Curriculum</h1>
-    <p class="hero-subtitle" style="font-size: 1.2rem;">Educational resources and learning materials</p>
+    <h1 class="hero-title">AI+HEP Curriculum</h1>
+    <p class="hero-subtitle">Curated educational resources for learning AI and High Energy Physics</p>
   </div>
-</div>
+</section>
 
 <div class="wrapper">
   <div class="content-section">
-    <h2 class="section-title">Learning Resources</h2>
-    <p>Curated materials for AI+HEP including jupyter notebooks and learning guides designed for students new to the field to quickly understand common tools, datasets, and research concepts.</p>
+    <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 800px;">
+      A comprehensive collection of lectures, tutorials, and learning materials designed to help students and researchers understand the intersection of artificial intelligence and high energy physics.
+    </p>
   </div>
 
-  <div class="content-section">
-    <h2 class="section-title">Featured Materials</h2>
-    
-    <div class="card">
-      <h3 class="card-title"> Collider Physics Basics</h3>
-      <div class="highlight-box">
-        <h4> TASI Lectures on Collider Physics</h4>
-        <p><strong>Author:</strong> Matthew D. Schwartz</p>
-        <p><strong>Reference:</strong> <a href="https://arxiv.org/abs/1709.04533" target="_blank">arXiv:1709.04533</a></p>
-        <p>Comprehensive introduction to fundamental concepts and techniques in collider physics.</p>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3 class="card-title"> AI for HEP & HEP for AI</h3>
-      <div class="card-grid" style="margin-top: 1rem;">
-        <div class="highlight-box">
-          <h4> QCD Masterclass: Jet Physics and ML</h4>
-          <p><strong>Author:</strong> Andrew J. Larkoski</p>
-          <p><strong>Reference:</strong> <a href="https://arxiv.org/abs/2407.04897" target="_blank">arXiv:2407.04897</a></p>
-          <p>Expert-level lectures on jet physics and machine learning applications.</p>
+  <div class="category-section">
+    <h3> Foundational Physics</h3>
+    <ul class="resource-list">
+      <li class="resource-item">
+        <h4 class="resource-item-title">
+          <a href="https://arxiv.org/abs/1709.04533" target="_blank" rel="noopener">TASI Lectures on Collider Physics</a>
+        </h4>
+        <div class="resource-item-meta">
+          <span><strong>Author:</strong> Matthew D. Schwartz</span>
+          <span><strong>Type:</strong> Lecture Notes</span>
         </div>
-        
-        <div class="highlight-box">
-          <h4> TASI Lectures: Physics for ML</h4>
-          <p><strong>Author:</strong> Jim Halverson</p>
-          <p><strong>Reference:</strong> <a href="https://arxiv.org/abs/2408.00082" target="_blank">arXiv:2408.00082</a></p>
-          <p>Lectures on how physics principles can inform machine learning methodologies.</p>
-        </div>
-      </div>
-    </div>
+        <p class="resource-item-desc">
+          Comprehensive introduction to fundamental concepts and techniques in collider physics. Covers theoretical foundations, experimental methods, and modern analysis techniques.
+        </p>
+      </li>
+    </ul>
   </div>
 
-  <div class="content-section">
-    <h2 class="section-title">Contribute</h2>
-    <div class="highlight-box">
-      <h3> Share Resources</h3>
-      <p>We welcome contributions of tutorials, course materials, and educational resources. Help make our community more accessible to newcomers.</p>
-      
-      <div style="text-align: center; margin-top: 2rem;">
-        <a href="mailto:contact@ai-hep.org" class="btn">Contribute Materials</a>
-        <a href="/about/" class="btn btn-outline">Learn More</a>
+  <div class="category-section">
+    <h3> AI + Physics</h3>
+    <ul class="resource-list">
+      <li class="resource-item">
+        <h4 class="resource-item-title">
+          <a href="https://arxiv.org/abs/2407.04897" target="_blank" rel="noopener">QCD Masterclass: Jet Physics and Machine Learning</a>
+        </h4>
+        <div class="resource-item-meta">
+          <span><strong>Author:</strong> Andrew J. Larkoski</span>
+          <span><strong>Type:</strong> Lecture Series</span>
+        </div>
+        <p class="resource-item-desc">
+          Expert-level lectures combining quantum chromodynamics with modern machine learning techniques. Explores how ML can enhance understanding of jet physics and particle interactions at colliders.
+        </p>
+      </li>
+
+      <li class="resource-item">
+        <h4 class="resource-item-title">
+          <a href="https://arxiv.org/abs/2408.00082" target="_blank" rel="noopener">TASI Lectures: Physics for Machine Learning</a>
+        </h4>
+        <div class="resource-item-meta">
+          <span><strong>Author:</strong> Jim Halverson</span>
+          <span><strong>Type:</strong> Lecture Notes</span>
+        </div>
+        <p class="resource-item-desc">
+          Explores how fundamental physics principles can inform and improve machine learning methodologies. Bridges the gap between theoretical physics and modern AI research.
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content-section" style="margin-top: 4rem;">
+    <div class="highlight-box" style="text-align: center; padding: 2.5rem;">
+      <h3 style="color: var(--accent-color); font-size: 1.8rem; margin-bottom: 1rem;">💡 Contribute Resources</h3>
+      <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem;">
+        Help expand our educational library! Share tutorials, course materials, Jupyter notebooks, or learning guides to make AI+HEP more accessible to newcomers.
+      </p>
+      <div class="btn-row center">
+        <a href="https://groups.google.com/g/hep-aiea" class="btn">Submit a Resource</a>
+        <a href="/workshops/" class="btn btn-outline">View events</a>
       </div>
     </div>
   </div>
