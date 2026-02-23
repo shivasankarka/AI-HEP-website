@@ -135,8 +135,8 @@ Past Sessions - 2026 {#section-title}
 
 2026-02-23
 : ### Causal chats
-  * [Bayesian Cosmic Void Finding with Graph Flows](https://arxiv.org/abs/2602.14630)
-  * [Revealing the Dark Threads of the Cosmic Web](https://arxiv.org/abs/2003.04393)
+  * [Bayesian Cosmic Void Finding with Graph Flows](https://arxiv.org/abs/2602.14630) (arXiv:2602.14630)
+  * [Revealing the Dark Threads of the Cosmic Web](https://arxiv.org/abs/2003.04393) (arXiv:2003.04393)
   * [AstroAI Asian Network](https://cd3.ipmu.jp//a3net/)
 
 <!-- -------------------------------------------- -->
