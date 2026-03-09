@@ -219,7 +219,7 @@ a:hover {
   font-size: 1.1rem !important;
   max-width: 600px !important;
   margin: 0 auto var(--spacing-lg) auto !important;
-  opacity: 0.8 !important;
+  opacity: 1.0 !important;
   line-height: 1.6 !important;
 }
 
@@ -1398,7 +1398,12 @@ a:focus {
   font-weight: 700 !important;
   color: var(--yang-light) !important;
   margin-bottom: 1rem !important;
-  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-shadow:
+    -1px 0 0 rgba(0, 0, 0, 0.22),
+    1px 0 0 rgba(0, 0, 0, 0.22),
+    0 -1px 0 rgba(0, 0, 0, 0.22),
+    0 1px 0 rgba(0, 0, 0, 0.22),
+    0 6px 18px rgba(0, 0, 0, 0.22);
   line-height: 1.1 !important;
   padding: 0 1rem;
 }
@@ -1408,6 +1413,11 @@ a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
   margin-bottom: 1.5rem !important;
   font-weight: 300 !important;
+  text-shadow:
+    -1px 0 0 rgba(0, 0, 0, 0.18),
+    1px 0 0 rgba(0, 0, 0, 0.18),
+    0 -1px 0 rgba(0, 0, 0, 0.18),
+    0 1px 0 rgba(0, 0, 0, 0.18);
   padding: 0 1rem;
 }
 
@@ -1419,6 +1429,11 @@ a:focus {
   max-width: 600px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  text-shadow:
+    -1px 0 0 rgba(0, 0, 0, 0.16),
+    1px 0 0 rgba(0, 0, 0, 0.16),
+    0 -1px 0 rgba(0, 0, 0, 0.16),
+    0 1px 0 rgba(0, 0, 0, 0.16);
   padding: 0 1rem;
 }
 
@@ -1544,84 +1559,101 @@ a:focus {
   margin: 0 auto 2rem;
 }
 
-/* Journal clubs page (moved from embedded <style> block) */
-#section-title {
-  font-size: 2rem !important;
-  font-weight: 600 !important;
-  color: var(--yin-dark) !important;
-  border-bottom: 3px solid var(--accent-color) !important;
-  display: block;
-}
-
-#past-sessionss dl {
-  display: grid;
-  grid-gap: 4px 16px;
-  grid-template-columns: minmax(15ch, max-content) 1fr;
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 0.2rem 0.5rem 0.5rem;
-  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-#past-sessionss dl:hover {
-  border-color: var(--accent-color);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
-}
-
-#past-sessionss dt {
-  background: var(--accent-color);
-  color: var(--yang-light);
-  padding: 0.2rem 0.5rem;
-  margin-top: 0.3rem;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  display: inline-block;
-  align-self: start;
-  white-space: nowrap;
-  width: max-content;
-  overflow: visible;
-}
-
-#past-sessionss dd {
-  background: white;
-  color: var(--text-primary) !important;
-  padding: 0.2rem 0.5rem;
-  margin-top: 0.3rem;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  display: inline-block;
-  grid-column-start: 2;
+/* Journal clubs page (simplified past-sessions styling) */
+#past-sessionss {
+  max-width: 900px;
+  margin: var(--spacing-xl) auto;
+  padding: 0 var(--spacing-md);
 }
 
 #past-sessionss h2 {
-  background: var(--accent-color);
-  color: var(--yang-light);
-  padding: 0.2rem 0.5rem;
-  margin-top: 0.3rem;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  display: inline-block;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--yin-dark);
+  border-bottom: 3.5px solid var(--accent-color);
+  padding-bottom: var(--spacing-xs);
+  margin: 2.5rem 0 1.25rem;
+}
+
+#past-sessionss dl {
+  margin: 0;
+  padding: 0;
+}
+
+#past-sessionss dt {
+  margin: 1.75rem 0 0;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--border-color);
+  font-weight: 700;
+  color: var(--yin-dark);
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+}
+
+#past-sessionss dt:first-of-type {
+  margin-top: 0.5rem;
+  padding-top: 0;
+  border-top: 0;
+}
+
+#past-sessionss dd {
+  margin: 0.5rem 0 0;
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 3px solid var(--gray-400);
+  color: var(--text-primary);
+}
+
+/* in case single date has multiple definition items */
+#past-sessionss dd + dd {
+  margin-top: 0.85rem;
+}
+
+#past-sessionss dd h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+#past-sessionss dd p {
+  margin: 0.35rem 0 0.85rem;
+  color: var(--text-secondary);
+}
+
+#past-sessionss dd ul,
+#past-sessionss dd ol {
+  margin: 0.25rem 0 0.85rem 1.25rem;
+}
+
+#past-sessionss dd li {
+  margin: 0.15rem 0;
 }
 
 #past-sessionss .focus-label {
-  background: var(--yin-dark);
-  color: var(--yang-light);
-  letter-spacing: 0.5px;
-  padding: 2px 6px 3px;
-  border-radius: 8px;
+  background: var(--gray-100);
+  border: 1px solid var(--border-color);
+  color: var(--yin-dark);
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
-#past-sessionss h3 { font-size: 1.15rem; }
-#past-sessionss #others { font-size: 1.05rem; }
+/* (kept for backward compatibility) */
+#past-sessionss #others {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  #past-sessionss {
+    padding: 0 var(--spacing-sm);
+  }
+
+  #past-sessionss dd {
+    padding-left: 0.85rem;
+  }
+}
 
 .journalclubs-intro {
   font-size: 1.1rem;

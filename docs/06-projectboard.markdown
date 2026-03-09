@@ -28,7 +28,7 @@ order: 7
       
       <div class="card">
         <h3 class="card-title">Find Partners</h3>
-        <p>Browse existing projects and connect with researchers in your area</p>
+        <p>Browse existing projects and connect with researchers</p>
       </div>
       
       <div class="card">
@@ -43,17 +43,17 @@ order: 7
     </div>
   </div>
 
-  <div class="content-section">
+  <!-- <div class="content-section">
     <h2 class="section-title">Get Started</h2>
     <div class="highlight-box">
       <h3> Post Your Project</h3>
-      <p>Ready to start a collaborative project or looking for research partners? Contact our team to post your project on the board.</p>
-      
+      <p>Contact the organizers to post your project on the board.</p>
       <div class="cta-center">
         <a href="https://groups.google.com/g/hep-aiea" class="btn">Contact us</a>
       </div>
     </div>
-  </div>
+  </div> -->
+
 </div>
 
 

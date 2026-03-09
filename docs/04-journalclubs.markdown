@@ -37,7 +37,7 @@ order: 5
 
 <div id="past-sessionss" markdown=1>
 
-Past Sessions - 2026 {#section-title}
+Past Sessions - 2026
 --------------------
 
 2025-03-16
@@ -74,7 +74,7 @@ Past Sessions - 2026 {#section-title}
 
 <!-- -------------------------------------------- -->
 
-Past Sessions - 2025 {#section-title}
+Past Sessions - 2025
 --------------------
 
 2025-12-08
@@ -118,7 +118,7 @@ Past Sessions - 2025 {#section-title}
   * **focused**{:.focus-label} [Double Descent and Overparameterization in Particle Physics Data](https://arxiv.org/abs/2509.01397) (arXiv:2509.01397)
   * [Double Descent](https://chris-said.io/2023/04/21/double-descent-in-human-learning/)
   * [Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets](https://arxiv.org/abs/2201.02177) (arXiv:2201.02177)
-: ### Other Papers {#others}
+: ### Other Papers
   * [Higgs Signal Strength Estimation with Machine Learning under Systematic Uncertainties](https://arxiv.org/abs/2509.00672) (arXiv:2509.00672)
 
 <!-- -------------------------------------------- -->
@@ -164,7 +164,7 @@ Past Sessions - 2025 {#section-title}
 2025-06-16
 : ### Neural Network Compositionality & Mechanistic Interpretability
   * **focused**{:.focus-label} [Break It Down: Evidence for Structural Compositionality in Neural Networks](https://arxiv.org/abs/2301.10884) (arXiv:2301.10884)
-: ### Other Papers {#others}
+: ### Other Papers
   * [Interpreting the structure of multi-object representations in vision encoders](https://arxiv.org/abs/2406.09067) (arXiv:2406.09067)
   * [Tracing Thoughts in Language Models](https://www.anthropic.com/research/tracing-thoughts-language-model) (anthropic)
   * [Mapping the Mind of Language Models](https://www.anthropic.com/research/mapping-mind-language-model) (anthropic)

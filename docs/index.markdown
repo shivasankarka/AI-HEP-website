@@ -48,7 +48,7 @@ layout: home
 
   <div class="news-section">
     <h2 class="news-title">📢 Latest News</h2>
-    <p><strong>January 2026:</strong> Join us at the <strong>AI+HEP Workshop 2026</strong> at KEK, Tsukuba, Japan (Jan 19-23, 2026)! <a href="/workshops/">View details →</a></p>
+    <p><strong>January 2026:</strong> The <strong>AI+HEP Workshop 2026</strong> was held at KEK, Tsukuba, Japan (Jan 19–23, 2026). <a href="/workshops/">View details →</a></p>
   </div>
 
   <div class="content-section">
