@@ -128,8 +128,21 @@ order: 5
 Past Sessions - 2026 {#section-title}
 --------------------
 
-2025-03-09
+2025-03-16
 : ### TBA
+
+<!-- -------------------------------------------- -->
+
+2026-03-09
+: ### Agent models
+  * [Agentic AI -- Physicist Collaboration in Experimental Particle Physics: A Proof-of-Concept Measurement with LEP Open Data](https://arxiv.org/abs/2603.05735) (arXiv:2603.05735)
+  * [The Denario project: Deep knowledge AI agents for scientific discovery](https://arxiv.org/abs/2510.26887) (arXiv:2510.26887)
+  * [MadAgents](https://arxiv.org/abs/2601.21015) (arXiv:2601.21015)
+  * [CoLLM: AI engineering toolbox for end-to-end deep learning in collider analyses](https://arxiv.org/abs/2602.06496) (arXiv:2602.06496)
+: ### Fine-tuning and Low Rank Adaptations (LoRA)
+  * [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) (arXiv:2106.09685)
+  * [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) (arXiv:2305.14314)
+  * [Hands-on Large Language Models](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/)
 
 <!-- -------------------------------------------- -->
 
