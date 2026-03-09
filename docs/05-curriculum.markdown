@@ -14,7 +14,7 @@ order: 6
 
 <div class="wrapper">
   <div class="content-section">
-    <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 800px;">
+    <p class="lead-paragraph">
       A comprehensive collection of lectures, tutorials, and learning materials designed to help students and researchers understand the intersection of artificial intelligence and high energy physics.
     </p>
   </div>
@@ -68,10 +68,10 @@ order: 6
     </ul>
   </div>
 
-  <div class="content-section" style="margin-top: 4rem;">
-    <div class="highlight-box" style="text-align: center; padding: 2.5rem;">
-      <h3 style="color: var(--accent-color); font-size: 1.8rem; margin-bottom: 1rem;">Contribute Resources</h3>
-      <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem;">
+  <div class="content-section contribute-section">
+    <div class="highlight-box contribute-box">
+      <h3 class="contribute-title">Contribute Resources</h3>
+      <p class="contribute-desc">
         Help expand our educational library! Share tutorials, course materials, Jupyter notebooks, or learning guides to make AI+HEP more accessible to newcomers.
       </p>
       <div class="btn-row center">

@@ -1340,3 +1340,321 @@ a:focus {
     background: linear-gradient(135deg, rgba(30, 42, 58, 0.85), rgba(212, 165, 116, 0.3)), url('{{ "/images/hero_simple.png" | relative_url }}') 80% center/100% no-repeat;
   }
 }
+
+
+/* -------------------------------------------------------------------------- */
+/* Page & Component Layout (moved from inline styles)                          */
+/* -------------------------------------------------------------------------- */
+
+/* Header include layout */
+.site-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site-header-brand {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 1rem;
+  border-radius: 4px;
+}
+
+/* Home / landing hero */
+.hero-section-fullscreen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: -60px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-top: 100px;
+}
+
+.home-hero-inner {
+  text-align: center;
+  max-width: 800px;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-hero-head {
+  margin-bottom: 2rem;
+}
+
+.hero-section-fullscreen .hero-title {
+  font-size: clamp(2rem, 8vw, 3.5rem) !important;
+  font-weight: 700 !important;
+  color: var(--yang-light) !important;
+  margin-bottom: 1rem !important;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  line-height: 1.1 !important;
+  padding: 0 1rem;
+}
+
+.hero-section-fullscreen .hero-subtitle {
+  font-size: clamp(1rem, 4vw, 1.3rem) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  margin-bottom: 1.5rem !important;
+  font-weight: 300 !important;
+  padding: 0 1rem;
+}
+
+.hero-section-fullscreen .hero-description {
+  font-size: clamp(1rem, 3vw, 1.1rem) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  line-height: 1.5 !important;
+  margin-bottom: 2rem !important;
+  max-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 1rem;
+}
+
+.home-hero-actions {
+  margin-bottom: 2rem;
+}
+
+.home-intro-section {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.section-title.section-title--home-join {
+  margin-top: 5rem;
+}
+
+.highlight-box.highlight-box--mt-0 {
+  margin-top: 0;
+}
+
+.home-join-lead {
+  text-align: center;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.home-join-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.home-join-card {
+  text-align: center;
+  padding: 1rem;
+}
+
+.home-join-icon-spacer {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-join-card-title {
+  margin: 0 0 0.5rem 0;
+  color: var(--accent-color);
+}
+
+.home-join-btn {
+  width: 100%;
+  max-width: 220px;
+}
+
+/* Small reusable layout helpers */
+.btn-row.btn-row--mt-2 {
+  margin-top: 2rem;
+}
+
+.btn-row.btn-row--mt-3 {
+  margin-top: 3rem;
+}
+
+.cta-center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Workshops media */
+.workshop-image {
+  margin-bottom: 1.5rem;
+}
+
+.workshop-photo {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workshop-photo--contain { object-fit: contain; }
+.workshop-photo--pos-50 { object-position: center 50%; }
+.workshop-photo--pos-40 { object-position: center 40%; }
+.workshop-photo--scale-90 { transform: scale(0.9); }
+
+/* Seminars participate grid */
+.participate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.participate-grid p {
+  margin-bottom: 1rem;
+}
+
+/* Curriculum page */
+.lead-paragraph {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+}
+
+.contribute-section {
+  margin-top: 4rem;
+}
+
+.highlight-box.contribute-box {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.contribute-title {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contribute-desc {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* Journal clubs page (moved from embedded <style> block) */
+#section-title {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  color: var(--yin-dark) !important;
+  border-bottom: 3px solid var(--accent-color) !important;
+  display: block;
+}
+
+#past-sessionss dl {
+  display: grid;
+  grid-gap: 4px 16px;
+  grid-template-columns: minmax(15ch, max-content) 1fr;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0.2rem 0.5rem 0.5rem;
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#past-sessionss dl:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+#past-sessionss dt {
+  background: var(--accent-color);
+  color: var(--yang-light);
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  align-self: start;
+  white-space: nowrap;
+  width: max-content;
+  overflow: visible;
+}
+
+#past-sessionss dd {
+  background: white;
+  color: var(--text-primary) !important;
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  grid-column-start: 2;
+}
+
+#past-sessionss h2 {
+  background: var(--accent-color);
+  color: var(--yang-light);
+  padding: 0.2rem 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+#past-sessionss .focus-label {
+  background: var(--yin-dark);
+  color: var(--yang-light);
+  letter-spacing: 0.5px;
+  padding: 2px 6px 3px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#past-sessionss h3 { font-size: 1.15rem; }
+#past-sessionss #others { font-size: 1.05rem; }
+
+.journalclubs-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Organizers page overrides */
+.organizers-page .person-bio {
+  border: none;
+  font-size: 0.85rem;
+}
+
+.person-photo--contain {
+  object-fit: contain !important;
+  object-position: center !important;
+  background: #f5f5f5;
+}
+
+.person-photo--zoom-135 {
+  transform: scale(1.35);
+}
+
+/* 404 page */
+.error-container {
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.error-container h1 {
+  margin: 30px 0;
+  font-size: 4em;
+  line-height: 1;
+  letter-spacing: -1px;
+}

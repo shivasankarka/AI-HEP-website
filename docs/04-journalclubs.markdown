@@ -6,105 +6,17 @@ order: 5
 ---
 
 <!--
-<div class="hero-section" style="padding: 2rem 0; margin-bottom: 2rem;">
+<div class="hero-section hero-tight">
   <div class="wrapper">
-    <h1 class="hero-title" style="font-size: 2.5rem;">Journal Clubs</h1>
+    <h1 class="hero-title">Journal Clubs</h1>
     <p class="hero-subtitle">Exploring the Latest in AI + High Energy Physics</p>
   </div>
 </div>
 -->
 
-<style>
-#section-title {
-  font-size: 2rem !important;
-  font-weight: 600 !important;
-  /* margin-bottom: var(--spacing-lg) !important; */
-  color: var(--yin-dark) !important;
-  border-bottom: 3px solid var(--accent-color) !important;
-  /* padding-bottom: var(--spacing-sm) !important; */
-  display: block;
-}
-
-#past-sessionss dl{
-  display: grid;
-  grid-gap: 4px 16px;
-  grid-template-columns: minmax(15ch, max-content) 1fr;
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 0.2rem 0.5rem 0.5rem;
-  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-}
-#past-sessionss dl:hover{
-  border-color: var(--accent-color);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
-}
-
-#past-sessionss dt
-{
-  background: var(--accent-color);
-  color: var(--yang-light);
-  padding: 0.2rem 0.5rem;
-  margin-top: 0.3rem;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  display: inline-block;
-  align-self: start;
-  white-space: nowrap;
-  width: max-content;
-  overflow: visible;
-}
-#past-sessionss dd
-{
-  background: white;
-  color: var(--text-primary) !important;
-  padding: 0.2rem 0.5rem;
-  margin-top: 0.3rem;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  display: inline-block;
-  grid-column-start: 2;
-}
-
-
-#past-sessionss h2 
-{
-  background: var(--accent-color);
-  color: var(--yang-light);
-  padding: 0.2rem 0.5rem;
-  margin-top: 0.3rem;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  display: inline-block;
-}
-#past-sessionss .focus-label {
-  background: var(--yin-dark);
-  color: var(--yang-light);
-  letter-spacing: 0.5px;
-  padding: 2px 6px 3px;
-  border-radius: 8px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-#past-sessionss h3 
-{
-  font-size: 1.15rem;
-}
-#past-sessionss #others 
-{
-  font-size: 1.05rem;
-}
-</style>
-
 <div class="wrapper">
     <div class="content-section">
-        <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 2rem;">
+        <p class="journalclubs-intro">
             Our journal clubs bring together researchers to discuss various developments 
             at the intersection of artificial intelligence and high energy physics. Join us for in-depth 
             discussions on both theoretical foundations and practical applications.

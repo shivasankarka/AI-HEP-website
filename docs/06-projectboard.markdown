@@ -5,10 +5,10 @@ permalink: /projectboard/
 order: 7
 ---
 
-<div class="hero-section" style="padding: 3rem 0; margin-bottom: 3rem;">
+<div class="hero-section">
   <div class="wrapper">
-    <h1 class="hero-title" style="font-size: 2.5rem;">Project Board</h1>
-    <p class="hero-subtitle" style="font-size: 1.2rem;">Collaborative research projects and opportunities</p>
+    <h1 class="hero-title">Project Board</h1>
+    <p class="hero-subtitle">Collaborative research projects and opportunities</p>
   </div>
 </div>
 
@@ -49,7 +49,7 @@ order: 7
       <h3> Post Your Project</h3>
       <p>Ready to start a collaborative project or looking for research partners? Contact our team to post your project on the board.</p>
       
-      <div style="text-align: center; margin-top: 2rem;">
+      <div class="cta-center">
         <a href="https://groups.google.com/g/hep-aiea" class="btn">Contact us</a>
       </div>
     </div>
